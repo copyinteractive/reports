@@ -2,68 +2,72 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mini Report – [Business Name]</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Business Report - [Business Name]</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background-color: #f9f9f9;
+      margin: 0;
+      padding: 1rem;
+      background-color: #f4f4f4;
       color: #333;
-      line-height: 1.6;
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
     }
-    h1 {
-      color: #2c3e50;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 0.3rem;
+    header {
+      background-color: #0d6efd;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 8px;
+    }
+    section {
+      background-color: white;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
     h2 {
-      color: #34495e;
-      margin-top: 2rem;
+      margin-top: 0;
+      color: #0d6efd;
     }
-    .section {
-      margin-bottom: 1.5rem;
-    }
-    .download {
+    a.download-link {
       display: inline-block;
       margin-top: 1rem;
-      padding: 0.6rem 1.2rem;
-      background-color: #2980b9;
+      padding: 0.5rem 1rem;
+      background-color: #198754;
       color: white;
-      text-decoration: none;
       border-radius: 5px;
+      text-decoration: none;
     }
-    .download:hover {
-      background-color: #1f6393;
+    a.download-link:hover {
+      background-color: #146c43;
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1>[Business Name]</h1>
+  </header>
 
-  <h1>[Business Name]</h1>
-
-  <div class="section">
+  <section>
     <h2>Business Summary</h2>
-    <p>[Insert a brief description of what the business does, its niche, who it serves, and its standout approach.]</p>
-  </div>
+    <p>[Your summary of what the business is about]</p>
+  </section>
 
-  <div class="section">
-    <h2>What’s Working</h2>
-    <p>[Write a glowing remark — highlight a strength, marketing angle, product clarity, consistency, etc.]</p>
-  </div>
+  <section>
+    <h2>What Stands Out</h2>
+    <p>[Your glowing remark about what’s going for them]</p>
+  </section>
 
-  <div class="section">
-    <h2>Observations</h2>
-    <p>[Your copywriting-informed take: Where are they leaking conversions, losing clarity, or under-leveraging a strength?]</p>
-  </div>
+  <section>
+    <h2>Observations & Drawbacks</h2>
+    <p>[Your personal observations and constructive criticism]</p>
+  </section>
 
-  <div class="section">
-    <h2>Sample Work</h2>
-    <p>Here’s a short piece I created specifically for their business:</p>
-    <a class="downld" href="[Link to Sample PDF or Doc]" target="_blank">Download Sample</a>
-  </div>
-
+  <section>
+    <h2>Download Sample Work</h2>
+    <p>You can view a sample of the work I did for this business by clicking the link below:</p>
+    <a href="[LINK-TO-SAMPLE-WORK]" class="download-link" download>[Download Sample Work]</a>
+  </section>
 </body>
 </html>
