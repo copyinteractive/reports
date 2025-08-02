@@ -20,10 +20,14 @@
       text-align: center;
       border-radius: 10px;
     }
-    header h1 {
-      font-size: 2rem;
-      margin: 0;
-    }
+  header h1 {
+  font-size: 2.rem; /* Default for desktop */
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.2rem; /* Smaller size for tablets and mobile */
+  }
+}
     .section {
       background-color: white;
       padding: 1.5rem;
@@ -31,6 +35,9 @@
       border-radius: 10px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.06);
     }
+    h1 {
+  text-align: center;
+}
     h2 {
       color: #2c3e50;
       margin-bottom: 1rem;
@@ -77,20 +84,26 @@
     a.download-link:hover {
       background-color: #219150;
     }
+    .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
   </style>
 </head>
 <body>
-  <header>
-    <h1>🚀 Luke Morgan Coaching | Mini Report</h1>
-  </header>
+  <div class="container">
+    <header>
+      <h1>🚀 Luke Morgan Coaching
+        Breakthrough Identity & Performance Report</h1>
+    </header>
 
-  <div class="section">
-    <h2><i class="bi bi-lightbulb icon"></i>Business Summary + Remark</h2>
-    <p>Luke Morgan is a performance and identity coach helping people break free from internal limits and live with discipline and purpose.</p>
-    <p>His coaching blends personal truth, faith, recovery principles, and bold storytelling to drive real-life transformation.</p>
-    <p>What sets him apart is his authenticity—it’s both strategic and emotionally compelling. His message builds trust and resonates with clarity and conviction.</p>
-  </div>
-
+    <div class="section">
+      <h2><i class="bi bi-lightbulb icon"></i>Business Summary + Remark</h2>
+      <p>Luke Morgan is a performance and identity coach helping people break free from internal limits and live with discipline and purpose.</p>
+      <p>His coaching blends personal truth, faith, recovery principles, and bold storytelling to drive real-life transformation.</p>
+      <p>What sets him apart is his authenticity—it’s both strategic and emotionally compelling. His message builds trust and resonates with clarity and conviction.</p>
+    </div>
   <div class="section">
     <h2><i class="bi bi-tools icon"></i>Personal Observations + Tweaks</h2>
     <h3><i class="bi bi-file-earmark-plus icon"></i>No Lead Magnet or Entry Point</h3>
