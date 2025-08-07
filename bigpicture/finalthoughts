@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Big Picture Executive Coach | Mini Report</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 1rem;
+      background-color: #fefefe;
+      color: #2c3e50;
+    }
+    header {
+      background: linear-gradient(to right, #2c3e50, #34495e);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      border-radius: 10px;
+    }
+  header h1 {
+  font-size: 2.rem; /* Default for desktop */
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.2rem; /* Smaller size for tablets and mobile */
+  }
+}
+    .section {
+      background-color: white;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    }
+    h1 {
+  text-align: center;
+}
+    h2 {
+      color: #2c3e50;
+      margin-bottom: 1rem;
+    }
+    h3 {
+      margin-top: 1rem;
+      color: #34495e;
+    }
+    p {
+      margin: 0.5rem 0;
+      line-height: 1.6;
+    }
+    strong {
+      color: #000;
+    }
+    .icon {
+      margin-right: 0.5rem;
+      color: #2c3e50;
+    }
+    .credibility-logos {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin: 1rem 0;
+    }
+    .badge {
+      background-color: #ecf0f1;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      color: #2c3e50;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+    a.download-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.25rem;
+      background-color: #27ae60;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a.download-link:hover {
+      background-color: #219150;
+    }
+    .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+  .section button {
+    background-color: #28a745;       /* Fresh green */
+    color: white;
+    font-size: 1.1rem;               /* Slightly bigger text */
+    padding: 12px 24px;              /* Spacious button */
+    margin: 10px auto;
+    display: block;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .section button:hover {
+    background-color: #218838;       /* Slightly darker green on hover */
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>
+  <span>Big Picture Executive Coach:</span><br>
+  <span>From Reality to Possibility</span>
+</h1>
+    </header>
+
+    <div class="section">
+      <p>These gaps aren’t just problems—they’re missed opportunities.</p>
+      <p>I know the work it takes to build a business, and how discouraging it feels when that work doesn’t drive growth.</p>
+      <p>If you're ready to close the gaps with clear, strategic messaging that connects and converts, I’m here to assist.</p>
+   </div>
+    <div class="section">
+    <p>Now let's see what's working for the business.</p>
+    </div>
+    <div class="section">
+  <button onclick="window.location.href='https://copyinteractive.github.io/reports/bigpicture/present'">📊 What's Working</button>
+    </div>
+</body>
+</html>
