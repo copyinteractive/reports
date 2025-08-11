@@ -112,6 +112,31 @@
   background-color: #f9f9f9;      /* Light background for contrast */
 }
 
+  .recommended-action {
+    border: 3px solid #000;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    position: relative;
+  }
+  
+  .recommended-action::before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    background: linear-gradient(45deg, #000, #333, #000, #333);
+    border-radius: 10px;
+    z-index: -1;
+    animation: borderPulse 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes borderPulse {
+    0% { opacity: 1; }
+    100% { opacity: 0.7; }
+  }
+
   </style>
 </head>
 <body>
@@ -122,32 +147,37 @@
 </h1>
     </header>
   <div class="section">
-  <h3><i class="bi bi-person-plus icon"></i>Missing Lead Capture Strategy</h3>
-  <p>Despite increased reach through repurposed content, there’s no confirmed lead magnet funnel in place to convert traffic into subscribers.</p>
+  <h3><i class="bi bi-funnel icon"></i>Missing Lead Capture Strategy</h3>
+  <p>Despite increased reach through repurposed content, there's no confirmed lead magnet funnel in place to convert traffic into subscribers.</p>
 </div>
 <div class="section">
-  <h3><i class="bi bi-house-door icon"></i>Homepage Messaging Doesn’t Highlight Transformation</h3>
-  <p>The copy focuses on tools and frameworks but doesn’t clearly showcase the emotional before-and-after journey clients experience.</p>
+  <h3><i class="bi bi-arrow-through-heart icon"></i>Homepage Messaging Doesn't Highlight Transformation</h3>
+  <p>The copy focuses on tools and frameworks but doesn't clearly showcase the emotional before-and-after journey clients experience.</p>
 </div>
 <div class="section">
-  <h3><i class="bi bi-bookmark-x icon"></i>No Landing Page for the Book</h3>
+  <h3><i class="bi bi-book icon"></i>No Landing Page for the Book</h3>
   <p>While <em>Unstoppable</em> is a powerful product, it currently lacks a dedicated conversion funnel or ecosystem.</p>
 </div>
 <div class="section">
-  <h3><i class="bi bi-shield-exclamation icon"></i>No Visual Credibility Signals</h3>
+  <h3><i class="bi bi-award icon"></i>No Visual Credibility Signals</h3>
   <p>Awards and client experiences are mentioned, but there are no logos, metrics, or trust badges to visually reinforce those claims and build authority.</p>
 </div>
 <div class="section">
   <h3><i class="bi bi-search icon"></i>SEO Without Strategic Content</h3>
-  <p>SEO efforts are underway, but they aren’t supported by keyword-rich, transformation-led blog content to drive organic growth.</p>
+  <p>SEO efforts are underway, but they aren't supported by keyword-rich, transformation-led blog content to drive organic growth.</p>
+</div>
+<div class="section recommended-action">
+  <h3><i class="bi bi-exclamation-triangle icon"></i>Recommended Action</h3>
+  
+  <p>Luke, there's one strategic move you can make from this: shift from information-heavy to transformation-focused messaging.</p>
+  
+  <p>Across all current and future content — lead magnets, landing pages, blog posts — show prospects exactly where they'll be after working with you, not just what you'll teach them.</p>
+  
+  <p>It's when they get a clear image of this, that buying from you becomes the natural next step.</p>
 </div>
 <div class="section">
-   <p>You may want to take these into cosideration for better reach and potential business.</p>
-   <p>On my own part, I created a little work sample you can use as soon as right now:</p>
-   </div>
-<div class="section">
-  <button onclick="window.location.href='https://copyinteractive.github.io/reports/lukemorgan/sample'">
-  ✨ Free Sample Rewrite
+  <button onclick="window.location.href='https://copyinteractive.github.io/reports/lukemorgan/finalthoughts'">
+  💭 Final Thoughts
 </button>
   </div>
 </body>
